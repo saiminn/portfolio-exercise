@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-   "homepage": "http://github-saiminn.github.io/portfolio-exercise",
+   "homepage": "https://github-saiminn.github.io/portfolio-exercise",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
