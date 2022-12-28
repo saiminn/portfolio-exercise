@@ -12,6 +12,7 @@ import web3 from "../public/web3.png";
 import web4 from "../public/web4.png";
 import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
+import Footer from "./footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -70,7 +71,7 @@ export default function Home() {
                 <img className="social-icons" src="/youtube.svg" alt="" />
               </li>
             </ul>
-            <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full  h-80 mt-20 overflow-hidden md:h-96 w-96">
+            <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full  h-80 mt-20 overflow-hidden md:h-96 ">
               <Image src={deved} layout="fill" objectFit="cover" />
             </div>
           </div>
@@ -94,7 +95,7 @@ export default function Home() {
             </p>
           </div>
           <div className="lg:flex gap-10 mx-auto">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 mx-20 bg-gradient-to-t from-gray-500 to-white">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 mx-20 bg-gradient-to-t from-gray-500 to-white min-w-fit">
               <Image
                 src={design}
                 width={100}
@@ -114,7 +115,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Figma</p>
               <p className="text-gray-800 py-1">Canva</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 mx-20 bg-gradient-to-t from-gray-500 to-white">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 mx-20 bg-gradient-to-t from-gray-500 to-white min-w-fit">
               <Image src={code} width={100} height={100} className="mx-auto" />
               <h3 className="text-lg font-medium pt-8 pb-2">
                 Beautiful Designs
@@ -129,7 +130,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Figma</p>
               <p className="text-gray-800 py-1">Canva</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 mx-20 bg-gradient-to-t from-gray-500 to-white">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 mx-20 bg-gradient-to-t from-gray-500 to-white min-w-fit">
               <Image
                 src={consulting}
                 width={100}
@@ -189,6 +190,7 @@ export default function Home() {
           </div>
         </section>
       </main>
+      <Footer/>
     </>
   );
 }
